@@ -6,7 +6,6 @@ use Composer\Installer\LibraryInstaller;
 use Composer\Package\PackageInterface;
 use Composer\Repository\InstalledRepositoryInterface;
 use Symfony\Component\Filesystem\Filesystem;
-use BeyondIT\Composer\OpenCartNaivePhpInstaller;
 
 class OpenCartExtensionInstaller extends LibraryInstaller
 {
