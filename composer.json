@@ -8,10 +8,14 @@
     },
     "license": "GPL 3.0",
     "authors": [
-        {
-            "name": "Stefan Huber",
-            "email": "stefan.huber@beyondit.at"
-        }
+      {
+        "name": "Stefan Huber",
+        "email": "stefan.huber@beyondit.at"
+      },
+      {
+        "name": "Marcel S. Henselin",
+        "email": "marcel@henselin.net"
+      }
     ],
     "autoload": {
         "psr-4": { "BeyondIT\\Composer\\": "src/BeyondIT/Composer" }
@@ -20,7 +24,8 @@
         "class": "BeyondIT\\Composer\\OpenCartExtensionInstallerPlugin"
     },
     "require-dev": {
-        "composer/composer": "^1.1|^2.0" ,
-        "phpunit/phpunit": "~8"
+      "roave/security-advisories": "dev-master",
+      "composer/composer": "^2" ,
+      "phpunit/phpunit": "~9"
     }
 }
